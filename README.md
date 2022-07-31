@@ -1,23 +1,5 @@
 # DK64 Reverse Engineering Project
 
-### Tools
-
-- n64split
-- m2c
-
-### Env setup
-
-Setup n64split. For MacOS:
-```bash
-brew install capstone libyaml libpng
-git clone https://github.com/nothings/stb && include in paths
-export C_INCLUDE_PATH=../sm64tools:/opt/homebrew/Cellar/capstone/4.0.2/include/:/usr/local/include:/opt/homebrew/Cellar/libyaml/0.2.5/include:/opt/homebrew/Cellar/libpng/1.6.37/include
-export LIBRARY_PATH=/opt/homebrew/Cellar/libyaml/0.2.5/lib:/opt/homebrew/Cellar/libpng/1.6.37/lib:/opt/homebrew/Cellar/capstone/4.0.2/lib
-make all
-``` 
-
-
-
 ```diff
 - WARNING! -
 
