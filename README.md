@@ -9,7 +9,7 @@ the codebase can drastically change at any time. Also note that some parts of th
 'shiftable' yet, so modifying them could be difficult at this point.
 ```
 
-This is a WIP **decompilation** of ***The Legend of Zelda: Ocarina of Time***. The purpose of the project is to recreate a source code base for the game from scratch, using information found inside the game along with static and/or dynamic analysis. **It is not producing a PC port.** For more information you can get in touch with the team on our [Discord server]().
+This is a WIP **decompilation** of ***Donkey Kong 64***. The purpose of the project is to recreate a source code base for the game from scratch, using information found inside the game along with static and/or dynamic analysis. **It is not producing a PC port.** For more information you can get in touch with the team on our [Discord server]().
 
 
 It builds the following ROM:
@@ -61,7 +61,7 @@ sudo apt-get update
 sudo apt-get install git build-essential binutils-mips-linux-gnu python3 libpng-dev
 ```
 
-If you are using GCC as the compiler for Ocarina of Time, you will also need:
+If you are using GCC as the compiler for DK64, you will also need:
 
 * gcc-mips-linux-gnu
 
@@ -107,16 +107,16 @@ Make sure your path to the project is not too long, otherwise this process may e
 make
 ```
 
-If all goes well, a new ROM called "zelda_ocarina_mq_debug.z64" should be built and the following text should be printed:
+If all goes well, a new ROM called "dk_mq_debug.z64" should be built and the following text should be printed:
 
 ```bash
-zelda_ocarina_mq_dbg.z64: OK
+dk_mq_dbg.z64: OK
 ```
 
 If you instead see the following:
 
 ```bash
-zelda_ocarina_mq_dbg.z64: FAILED
+dk_mq_dbg.z64: FAILED
 md5sum: WARNING: 1 computed checksum did NOT match
 ```
 
