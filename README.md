@@ -1,5 +1,7 @@
 # DK64 Reverse Engineering Project
 
+ACTIVE REPO: https://gitlab.com/dk64_decomp/dk64
+
 ```diff
 - WARNING! -
 
